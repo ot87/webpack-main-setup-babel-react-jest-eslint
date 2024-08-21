@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  width: 600px;
+  height: 100vh;
+}
+
+.counter {
+  width: 100%;
+  border-radius: 16px;
+  padding: 24px;
+  background-image: url("./background-ocean.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+
+  h1 {
+    color: #f3d4bd;
+  }
+}
+
+.ax-button {
+    all: unset;
+    outline: revert;
+    box-sizing: border-box;
+}
+
+.btn {
+    scale: 0.9;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      scale: 1;
+      translate: 1px 1px;
+    }
+}

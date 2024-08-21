@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    margin: 0;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
